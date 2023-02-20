@@ -66,7 +66,7 @@ window:
   #startup_mode: Windowed
 
   # Window title
-  title: Alacritty@Garuda
+  title: Alacritty
 
   # Opacity
   opacity: 0.95
@@ -104,7 +104,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: FantasqueSansMono Nerd Font Mono
+    family: FiraCode Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -115,7 +115,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family:  FantasqueSansMono Nerd Font Mono
+    family: FiraCode Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Bold
@@ -126,7 +126,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family:  FantasqueSansMono Nerd Font Mono
+    family: FiraCode Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Italic
@@ -137,7 +137,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family:  FantasqueSansMono Nerd Font Mono
+    family: FiraCode Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Bold Italic
@@ -327,7 +327,7 @@ live_config_reload: true
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /usr/bin/zsh
+  program: /bin/zsh
   args:
     - --login
 
@@ -545,8 +545,8 @@ mouse:
 # at once.
 key_bindings:
     # (Windows, Linux, and BSD only)
-  - { key: V,        mods: Control|Shift, action: Paste            }
-  - { key: C,        mods: Control|Shift, action: Copy             }
+    #- { key: V,        mods: Control|Shift, action: Paste            }
+    #- { key: C,        mods: Control|Shift, action: Copy             }
   - { key: Insert,   mods: Shift,         action: PasteSelection   }
   - { key: Key0,     mods: Control,       action: ResetFontSize    }
   - { key: Equals,   mods: Control,       action: IncreaseFontSize }
